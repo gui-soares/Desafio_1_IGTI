@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body{
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    font-family: sans-serif;
+  }
+
+#main-container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}  
+
+.input-container{
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 60px;
+}
+
+.slider{
+  width: 200px;
+}
