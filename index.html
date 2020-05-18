@@ -10,19 +10,45 @@
   <div id="main-container">
   <div class="input-container">
     <span>( R ) Vermelho: </span>
-    <input type="range" name="slider-red" id="slider-red" class="slider">
-    <input type="text" name="red" id="red" disabled>
+    <input 
+    type="range" 
+    name="slider-red" 
+    id="slider-red" 
+    class="slider" 
+    min="0" 
+    max="255"
+    step="1"
+    value="0"/>
+    <input type="number" name="red" id="red" class="value"/>
   </div>
   <div class="input-container">
     <span>( G ) Verde: </span>
-    <input type="range" name="slider-green" id="slider-green" class="slider">
-    <input type="text" name="green" id="green" disabled>
+    <input 
+    type="range" 
+    name="slider-green" 
+    id="slider-green" 
+    class="slider"
+    min="0" 
+    max="255"
+    step="1"
+    value="0"/>
+    <input type="number" name="green" id="green" class="value">
   </div>
   <div class="input-container">
     <span>( B ) Azul: </span>
-    <input type="range" name="slider-blue" id="slider-blue" class="slider">
-    <input type="text" name="blue" id="blue" disabled>
+    <input 
+    type="range" 
+    name="slider-blue" 
+    id="slider-blue" 
+    class="slider"  
+    min="0" 
+    max="255"
+    step="1"
+    value="0"/>
+    <input type="number" name="blue" id="blue" class="value">
   </div>
+  <div id="square"></div>
 </div> 
+<script src="script.js"></script>
 </body>
 </html>
